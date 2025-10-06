@@ -1,6 +1,5 @@
 - name: Testing ping module
-  hosts: localhost
-  connection: local
+  hosts: all
   become: true
   tasks:
           - name: installing apache2
